@@ -253,11 +253,17 @@ ul li .nav-button:hover {
 	margin-bottom: 40px;
 }
 
-#try-resume .nav-link {
-	padding: 20px 72px;
-	font-size: 16px;
-	width: 296px;
+#try-resume ul li {
+	width: 100%;
 }
+
+#try-resume .nav-link {
+	padding:20px 0;
+	font-size: 16px;
+	margin:0 auto;
+	width:100%; 
+}
+
 
 #try-resume .sub-title h3 {
 	font-size: 22px;
@@ -503,7 +509,10 @@ ul li .nav-button:hover {
 }
 
 #clients-part .tab-content .item .img img {
-	width: 48%;
+	width: auto;
+}
+#clients-part .tab-content .item::after {
+	bottom: 42px;
 }
 
 #clients-part::after {
@@ -595,11 +604,7 @@ ul li .nav-button:hover {
 	padding-bottom: 0px;
 }
 
-#pricing-part .right .tab-content a {
-	padding: 17px 65px;
-	
-	box-shadow: 3px 4px 10px -5px rgba(0,0,0,0.46);
-}
+
 
 #pricing-part::after {
 	bottom: -50px;
@@ -753,7 +758,7 @@ ul li .nav-button:hover {
 }
 
 #copy-right .navbar-brand .round {
-	margin-left: 35%;
+	margin:0 auto;
 }
 
 #copy-right p {
@@ -1450,11 +1455,6 @@ ul li .nav-button:hover {
 		padding-bottom: 0px;
 	}
 	
-	#pricing-part .right .tab-content a {
-		padding: 17px 172px;
-		
-		box-shadow: 3px 4px 10px -5px rgba(0,0,0,0.46);
-	}
 	
 	#pricing-part::after {
 		bottom: -50px;
@@ -1630,7 +1630,8 @@ ul li .nav-button:hover {
 	}
 	
 	#copy-right .navbar-brand .round {
-		margin-left: 41%;
+	
+		margin: 0 auto;
 	}
 	
 	#copy-right p {

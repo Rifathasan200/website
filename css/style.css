@@ -779,82 +779,6 @@ box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
         Portfolio part end
 ====================================*/
 
-/* ==============================
-       Resume part end
-====================================*/
-
-/* #resume-part{
-    margin-bottom: 100px;
-    padding-top:100px;
-}
-
-#resume-part .section-title{
-    text-align: center;
-    
-}
-
-#resume-part .section-title h4{
-    font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 14px;
-    color:#ff004e ;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom:10px;
-    line-height: 14px;
-}
-
-#resume-part .section-title h2{
-    font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 60px;
-    color:rgb(60, 62, 65) ;
-    letter-spacing: 2px;
-    margin-top:10px;
-    margin-bottom: 20px;
-}
-
-#resume-part .nav-tab{
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    height:100px;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-
-#resume-part .nav-tab .item{
-    width:25%;
-    height:100px;
-    cursor: pointer;
-    transition: .4s;
-    border-radius: 10px;
-}
-
-#resume-part .nav-tab .item:hover{
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    -webkit-box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
--moz-box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
-box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
-}
-
-#resume-part .nav-tab .item h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    color:rgb(30, 33, 37);
-    text-transform: capitalize;
-    text-align: center;
-    margin-top: 35px;
-    transition: .4s;
-}
-
-#resume-part .nav-tab .item:hover h2{
-    color:#ff004e;
-} */
-
-/* ==============================
-        Resume part end
-====================================*/
 
 
 /* ==============================
@@ -867,8 +791,8 @@ box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
     position: relative;
 }
 
-#try-resume ul li{
-    margin:0 0;
+#try-resume ul li {
+	margin: 0 0;
 }
 
 
@@ -1706,7 +1630,7 @@ box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
 }
 
 #clients-part .tab-content .item .img img{
-    width:55%;
+    width:60%;
     margin-top:10px;
     
 }
@@ -1715,6 +1639,7 @@ box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
 #clients-part .tab-content .item .button{
     width:100%;
     height:60px;
+    margin-top: 10px;
 }
 
 
@@ -1724,7 +1649,7 @@ box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
     font-size: 18px;
     font-weight: 400;
     color:rgb(60, 62, 65);
-    margin-top: 16px;
+    margin-top: 13px;
 }
 
 
@@ -1943,31 +1868,43 @@ box-shadow: 3px 4px 10px -5px rgba(0,0,0,0.46);
     color:#ff004e ;
 }
 
-#pricing-part .right .tab-content a {
+#pricing-part .right .tab-content .button{
+     width: 95%;
+     
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 3px 2px 12px -5px rgba(0,0,0,0.46);
+   text-align: center;
+    padding: 12px 0;
+    border-radius: 7px;
+    transition: .4s;
+}
+
+#pricing-part .right .tab-content .button a {
     font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
     color:#ff004e ;
-    padding: 17px 188px;
-    border-radius: 7px;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    -webkit-box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
--moz-box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
-box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
     transition:.4s
 }
 
-#pricing-part .right .tab-content a:hover{
+#pricing-part .right .tab-content .button:hover{
     background:#ff004e ;
+
+   
+}
+
+#pricing-part .right .tab-content .button:hover a{
     color:#ffffff;
    
 }
-#pricing-part .right .tab-content a i{
+
+#pricing-part .right .tab-content .button  i{
     font-size: 16px;
     transition: .4s;
 }
 
-#pricing-part .right .tab-content a:hover i{
+#pricing-part .right .tab-content .button:hover  i{
+    color:#ffffff;
     margin-left:5px;
 }
 
@@ -2419,7 +2356,7 @@ box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
 	position: relative;
 	overflow: hidden;
 	border: 3px solid rgba(0, 0, 0,.2);
-	margin-left: 46%;
+	margin:0 auto;
 }
 
 #copy-right .navbar-brand .round img{
@@ -2437,7 +2374,6 @@ box-shadow: 4px 4px 17px -5px rgba(0,0,0,0.46);
 	font-size: 22px;
 	color: #000;
 	margin-top: 7px;
-	margin-right: 17px;
 	letter-spacing: 2px;
 }
 
