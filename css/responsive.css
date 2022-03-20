@@ -587,7 +587,7 @@ ul li .nav-button:hover {
 	padding: 13px 27px;
 	font-size: 16px;
 	font-weight: 600;
-	top: 142px;
+	top: 117px;
 	left: 20px;
 	width: 110px;
 }
@@ -759,6 +759,10 @@ ul li .nav-button:hover {
 
 #copy-right .navbar-brand .round {
 	margin:0 auto;
+}
+
+#copy-right .navbar-brand .round img {
+	width: 101%;
 }
 
 #copy-right p {
